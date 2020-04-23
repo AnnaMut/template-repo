@@ -1,0 +1,23 @@
+.main-header-catalog {
+    background: #8a9fb6; 
+    
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
+        background-image: url(../img/flo.png);
+        background-repeat: no-repeat;
+        background-position: top 11% center;
+        background-size: contain;
+        }
+
+    .menu-list-link-text-catalog {
+        font-size: 1.125em;
+   line-height: 1.4em;
+   font-weight: 500;
+
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
+    font-size: 0.85em;
+    line-height: 1.500em;
+    }
+}
+
+}
+

@@ -1,0 +1,66 @@
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    min-width: $small-screen;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 0.875em;
+    line-height: 1.4em;
+    color: #fff;
+    background-color: #fff;
+
+    a {
+        -moz-text-decoration: none;
+        text-decoration: none;
+    }
+
+    a:-webkit-any-link {
+        text-decoration: none;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    ul {
+        list-style: none;
+    }
+  
+    .visually-hidden:not(:focus):not(:active),
+    input[type="checkbox"].visually-hidden,
+    input[type="radio"].visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        -webkit-clip-path: inset(100%);
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
+
+    .gradientcolor {
+        background: linear-gradient(270deg, rgb(207, 48, 154) 0%, rgb(80, 11, 126) 100%);  
+    }
+
+    .wrapper {
+        margin: 0 auto;
+    }
+
+    @media screen and (min-width: 950px) and (max-width: 1920px) {
+        min-width: 950px;
+  }
+
+  }
+
+  
