@@ -1,0 +1,79 @@
+html, body {
+  overflow-x: hidden; }
+
+body {
+  min-width: 320px;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Montserrat", "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.875em;
+  line-height: 1.4em;
+  color: #fff;
+  background-color: #fff; }
+  body a {
+    text-decoration: none; }
+  body a:-webkit-any-link {
+    text-decoration: none; }
+  body img {
+    max-width: 100%;
+    height: auto; }
+  body ul {
+    list-style: none; }
+  body .visually-hidden:not(:focus):not(:active),
+  body input[type="checkbox"].visually-hidden,
+  body input[type="radio"].visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden; }
+  body .gradientcolor {
+    background: -webkit-gradient(linear, right top, left top, from(#cf309a), to(#500b7e));
+    background: linear-gradient(270deg, #cf309a 0%, #500b7e 100%); }
+  body .wrapper {
+    margin: 0 auto; }
+  @media screen and (min-width: 950px) and (max-width: 1920px) {
+    body {
+      min-width: 950px; } }
+
+.main-header {
+  background: #367e30; }
+
+.contacts__map iframe {
+  width: 100%;
+  vertical-align: bottom;
+  height: 400px; }
+  @media screen and (min-width: 950px) and (max-width: 2500px) {
+    .contacts__map iframe {
+      height: 900px; } }
+
+.page-footer a:-webkit-any-link {
+  color: inherit !important;
+  text-decoration: none; }
+
+.main-header-catalog {
+  background: #8a9fb6; }
+  @media screen and (min-width: 950px) and (max-width: 2500px) {
+    .main-header-catalog {
+      background-image: url(../img/flo.png);
+      background-repeat: no-repeat;
+      background-position: top 11% center;
+      background-size: contain; } }
+  .main-header-catalog .menu-list-link-text-catalog {
+    font-size: 1.125em;
+    line-height: 1.4em;
+    font-weight: 500; }
+    @media screen and (min-width: 950px) and (max-width: 2500px) {
+      .main-header-catalog .menu-list-link-text-catalog {
+        font-size: 0.85em;
+        line-height: 1.500em; } }
